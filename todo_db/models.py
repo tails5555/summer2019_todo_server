@@ -40,7 +40,7 @@ class TodoElement(models.Model) :
     
     # TODO 데이터 별 중요도 설정을 위해 사용하는 ENUM 데이터 입니다.
     PRIORITY_CHOICES = (
-        ('5', '위급')
+        ('5', '위급'),
         ('4', '긴급'),
         ('3', '평범'),
         ('2', '여유'),
